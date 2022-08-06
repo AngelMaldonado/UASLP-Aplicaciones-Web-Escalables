@@ -1,0 +1,8 @@
+<div *ngIf="hero">
+  <h2>{{ hero.name | uppercase }} Details</h2>
+  <div>
+    <label for="name">Hero name:</label>
+    <!-- [(...)] -> two way data binding -->
+    <input id="name" [(ngModel)]="hero.name" placeholder="Hero's name">
+  </div>
+</div>
