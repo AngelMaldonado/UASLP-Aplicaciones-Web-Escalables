@@ -1,0 +1,6 @@
+<h2>Add a new dog</h2>
+<form (ngSubmit)="addDog()">
+  <label for="dogs_name">Dog's name</label>
+  <input type="text" name="dogs_name" id="dogs_name" [(ngModel)]="newDog.name">
+  <button role="button" type="submit">Add Dog</button>
+</form>
