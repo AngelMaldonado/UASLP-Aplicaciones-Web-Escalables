@@ -1,0 +1,116 @@
+<!-- **************************************
+*   Author : AngelMaldonado
+*   Created On : 05/09/2022
+*   File : index.html
+*************************************** -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+  <title>Cheem App</title>
+</head>
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg bg-warning bg-opacity-75 fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="img/rubik's-cube.svg" width="40" alt="logo">
+        Algorithm Visualizer
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav gap-2 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Sorting Algorithms
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="/">Bubble Sort</a></li>
+              <li><a class="dropdown-item" href="/">Gnome Sort</a></li>
+              <li><a class="dropdown-item" href="/">Binary Sort</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Heuristic Algorithms
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="/">Ant Colony Optimization</a></li>
+              <li><a class="dropdown-item" href="/">Particle Swarm Optimization</a></li>
+              <li><a class="dropdown-item" href="/">Linear Regression</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Graphs Algorithms
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="/">Depth-First Search</a></li>
+              <li><a class="dropdown-item" href="/">Breadth-First Search</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <img src="img/male-user.svg" width="40" alt="icon-user">User
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+              <li><a class="dropdown-item" href="/profile">Profile</a></li>
+              <li><a class="dropdown-item" href="/login">Login</a></li>
+            </ul>
+          </li>
+        </ul> <!-- .navbar-nav -->
+      </div> <!-- .navbar-collapse -->
+    </div> <!-- .container-fluid -->
+  </nav> <!-- .navbar-expand -->
+
+  <main>
+    <div id="carouselExampleControls" class="carousel slide vh-100 shadow-lg" data-bs-ride="carousel">
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active h-100">
+          <img src="img/slide1.jpg" class="d-block w-100 opacity-50" alt="city-image">
+          <div class="card gap-4 position-absolute top-50 start-50 translate-middle bg-transparent border-0">
+            <h2 class="card-header display-1">Graphs Algorithms</h2>
+            <a class="btn btn-warning fw-bold" href="#">TRY NOW</a>
+          </div>
+        </div>
+        <div class="carousel-item h-100">
+          <img src="img/slide2.jpg" class="d-block w-100 opacity-50" alt="neurons-image">
+          <div class="card gap-4 position-absolute top-50 start-50 translate-middle bg-transparent border-0">
+            <h2 class="card-header display-1">Sorting Algorithms</h2>
+            <a class="btn btn-warning fw-bold" href="#">TRY NOW</a>
+          </div>
+        </div>
+        <div class="carousel-item h-100">
+          <img src="img/slide3.jpg" class="d-block w-100 opacity-50" alt="cards-image">
+          <div class="card gap-4 position-absolute top-50 start-50 translate-middle bg-transparent border-0">
+            <h2 class="card-header display-1">Heuristic Algorithms</h2>
+            <a class="btn btn-warning fw-bold" href="#">TRY NOW</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="text-center p-4">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="https://github.com/AngelMaldonado" target="_blank">AngelMaldonado</a>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
